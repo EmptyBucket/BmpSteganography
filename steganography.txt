@@ -1,0 +1,24 @@
+Steganography
+	hides any information in the image, whether a picture 
+	archive, text data, and so on. Retrieves information 
+	hidden in the picture.
+
+Used class batch mode:
+	Steganography(object)
+And use the following methods:
+	hide_information(self, information, outFile=None)
+	to hide information
+	unhide_information(self, outFile=None)
+	to unhide information
+
+Used class batch mode:
+	PixelData(object)
+And use the following methods:
+	getPixelData(self)
+	receiving pixel data for
+    getPixelSize(self)
+    for the pixel size
+    getWidth(self)
+    to obtain the width of the image
+    getHeight(self)
+    for the image height
